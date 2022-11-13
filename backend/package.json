@@ -1,5 +1,5 @@
 {
-  "name": "game-app",
+  "name": "project-game-app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index",
