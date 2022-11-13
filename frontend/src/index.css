@@ -7,7 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.game {
+  height: 720px;
+  width: 720px;
+  justify-content: center;
+}
+
+.grid {
+  width: calc(720px/9);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
