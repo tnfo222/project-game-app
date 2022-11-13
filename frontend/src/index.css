@@ -29,6 +29,7 @@ code {
   width: 720px;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px 200px;
 }
 
 .grid {
@@ -36,5 +37,5 @@ code {
   height: 80px;
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: repeat(9, 1fr)
+  grid-template-columns: repeat(9, 1fr);
 }
