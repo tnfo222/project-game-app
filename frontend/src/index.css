@@ -27,12 +27,14 @@ code {
 .game {
   height: 720px;
   width: 720px;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .grid {
-  width: calc(720px/9);
-  height: auto;
-  display: flex;
+  width: 80px;
+  height: 80px;
+  display: grid;
   flex-wrap: wrap;
+  grid-template-columns: repeat(9, 1fr)
 }

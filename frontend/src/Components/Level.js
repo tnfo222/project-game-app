@@ -42,4 +42,4 @@ function Level() {
     )
 }
 
-export default Level;
+export default React.memo(Level);
