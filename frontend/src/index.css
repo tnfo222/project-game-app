@@ -7,36 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flex {
-  display: flex;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.w-100 {
-  width: 100%;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.game {
-  height: 720px;
-  width: 720px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 200px
-}
-
-.grid {
-  width: 80px;
-  height: 80px;
-  display: grid;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(9, 1fr);
-  align-items: center;
 }

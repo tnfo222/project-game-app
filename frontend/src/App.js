@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Frogger from "./Components/Frogger";
+import TicTacToe from './Component/TicTacToe';
 
 function App() {
   return (
     <div className="App">
-      <h1>FROGGER</h1>
-      <Frogger />
+      <TicTacToe/>
     </div>
   );
-}
+};
+
 
 export default App;
