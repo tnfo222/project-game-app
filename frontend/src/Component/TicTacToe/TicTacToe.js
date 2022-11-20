@@ -5,6 +5,7 @@ const TicTacToe = () => {
     const [turn, setTurn] = useState('x');
     const [cells, setCells] = useState(Array(9).fill(''));
     const [winner, setWinner] = useState();
+    let score = 0;
 
     const checkWin = (squares) => {
         let combos = {
@@ -62,9 +63,6 @@ const TicTacToe = () => {
         setCells(squares);
         //console.log(squares);
     };
-
-    //Keep Score
-    
 
     //Reset board
     const restartGame = () => {
